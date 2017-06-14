@@ -54,7 +54,7 @@ while True:
      if board.is_seventyfive_moves():
          speak('Seventy five moves can be claimed')
      if board.is_check():
-         speak('checkmate')
+         speak('check')
      if board.is_game_over():
          speak('Game over')
          break
